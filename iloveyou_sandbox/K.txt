@@ -1,0 +1,34 @@
+The simulation code is **embedded directly in this README** (see [📄 Complete Simulation Code](#-complete-simulation-code)). Copy it into a `.py` file to run it.
+
+**Key functions inside the script:**
+- `prepare_sandbox()` – Creates the test folder and dummy files.
+- `worm_self_copy()` – Reads its own source code (the payload to be written).
+- `overwrite_files()` – Walks through the sandbox and replaces matching files.
+- `simulate_email_propagation()` – Prints fake Outlook emails.
+- `simulate_password_steal()` – Prints dummy stolen credentials.
+- `add_to_registry()` – Prints the startup registry key.
+
+All functions are clearly commented so you can follow the logic step by step.
+
+---
+
+## 📁 Files & Project Structure
+| File                       | Description                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| `iloveyou_simulation.py`   | The complete simulation script (copy from this README). Safe to run, modify, and study. |
+| `README.md`                | This detailed guide (contains the code).                                    |
+| `iloveyou_sandbox/`        | Created at runtime. Contains dummy files before and after “infection”.      |
+
+---
+
+## 🛠️ Setup & Requirements
+- **Operating System**: Linux, macOS, or Windows.  
+  (The original worm was Windows‑only, but this Python simulation works cross‑platform.)
+- **Python**: 3.6 or newer (no additional packages needed).
+- **Git** (optional): to clone the repository.
+
+### Installation
+```bash
+# Clone the repository (if you have it online)
+git clone https://github.com/yourusername/iloveyou-educational-simulation.git
+cd iloveyou-educational-simulation
