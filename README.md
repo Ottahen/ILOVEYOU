@@ -16,7 +16,7 @@
   - [📖 Table of Contents](#-table-of-contents)
   - [📚 Introduction](#-introduction)
   - [🎯 What This Simulation Does](#-what-this-simulation-does)
-  - [🚨 Disclaimer](#-disclaimer)
+  - [🚨 Disclaimer](#-disclaimer) :) 
   - [🧠 How the Original Worm Worked](#-how-the-original-worm-worked)
   - [⚙️ Architecture of the Simulation](#️-architecture-of-the-simulation)
   - [📁 Files \& Project Structure](#-files--project-structure)
